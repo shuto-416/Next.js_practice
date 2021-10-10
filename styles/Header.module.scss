@@ -2,16 +2,16 @@
     width: 100%;
     height: 60px;
     margin: 0 auto;
-    background-color: black;
-    // position: fixed; // header以外の要素と被る形になる
-
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed; // header以外の要素と被る形になる + 画面にずっとおる
+    backdrop-filter: blur(8px);
     a{
         text-align: center;
         text-decoration: none;
         color: white;
     }
 
-    >.header_title{
+    .header_title{
         display: flex;
         justify-content: center;
         align-items: center;

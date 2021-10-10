@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="hone-body">
+      <div className={styles.home_body}>
         <div className="main-page">
           <h1>Do you enjoy</h1>
           <h1>your LIFE ?</h1>

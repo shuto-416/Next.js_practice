@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: black;
+    // position: fixed; // header以外の要素と被る形になる
+
+    a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    >.header_title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+        font-size: 30px;
+        padding: 6px 0px 20px 25px;
+    }
+
+    .heder_right{
+        font-size: 18px;
+        float: right;
+        margin-right: 20px;
+        line-height: 60px;
+        color: white;
+        >a  {
+            display: block;
+            float: left;
+            padding: 0 25px;
+            transition: all 0.3s;
+        }
+        >a:hover{
+            background-color: rgb(80, 80, 80);
+        }
+    }
+}
